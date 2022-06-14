@@ -6,4 +6,8 @@ function validateSnils(snils, error) {
     } else if (typeof snils !== 'string') {
         snils = '';
     }
+    if (!snils.length) {
+        error.code = 1;
+        error.message = 'СНИЛС пуст';
+    }
 }

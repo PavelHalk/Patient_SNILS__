@@ -5,7 +5,7 @@
       <paths name="sprinthost">
         <serverdata>
           <mappings>
-            <mapping deploy="C:\файлы жёсткого диска\Политех\7 семестр\СТП\Белякова\ТПО\Patient_SNILS" local="$PROJECT_DIR$" web="/Patient_SNILS/" />
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/Patient_SNILS/" />
             <mapping local="" />
           </mappings>
         </serverdata>
