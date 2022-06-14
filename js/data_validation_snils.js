@@ -2,8 +2,8 @@
 
 QUnit.test('Snils', function (assert) {
     var data = [].concat(getTests(3), [
-        ['', false, 1],
-        ['dfdfdsfgvhf', false, 2],
+        //['', false, 1],
+        //['dfdfdsfgvhf', false, 2],
         ['0000000000', false, 3],
         ['0123456789', false, 3],
         ['1234567890', false, 3],
