@@ -40,6 +40,18 @@
         <div class=\"log\">
             <a id=\"A1\"><button id=\"button__2\">Для видеочата</button></a>
             <form class="visib" method="POST">
+                <p><input type="number" name="1name" class="input2" id="num" maxlength="20" pattern="[0-9]{10,12}" placeholder="№СНИЛС: 12345678901" required="required"><!--Текстовые поля для ввода ФИО-->
+                </p> <div class=" " id='err' style="display: block;color: chartreuse;font-size: large;"></div>
+        <p> <input type="text" pattern="^[А-Яа-яЁё\s]+$" name="2name" class="input2" id="fio" maxlength="70" placeholder="Полное имя" required="required"><!--Текстовые поля-->
+        </p>
+        <p> <input type="tel" pattern="[0-9]{1,11}" name="3name" class="input2" id="tele" maxlength="19" placeholder="Телефон"><!--Текстовые поля-->
+        </p>
+        <p><input type="text" name="4name" class="input2" maxlength="90" placeholder="Адрес" required="required"><!--Текстовые поля-->
+        </p>
+        <p><input type="email" name="5name" class="input2" maxlength="50" placeholder="Почта (не важно!)"><!--Текстовые поля-->
+        </p>
+        <p> <input type="text" name="7name" class="input2" maxlength="256" placeholder="Жалобы?"><!--Текстовые поля-->
+        </p>
 
             </form>
         </div>
