@@ -8,7 +8,7 @@ function validateSnils(snils, error) {//валидатор снилса
         snils = '';
     }
     if (!snils.length) {
-        message = 'Ошибка, код: ' + 1 + ' - СНИЛС пуст';
+        message = 'Ошибка, код: ' + 1 + ' - СНИЛС пустой';
     } else if (/[^0-9]/.test(snils)) {
         message = 'Ошибка, код: ' + 2 + ' - СНИЛС может состоять только из цифр';
     } else if (snils.length !== 11) {
@@ -48,7 +48,7 @@ function validateSnilsdop(snils, error) {//валидатор снилса
         snils = '';
     }
     if (!snils.length) {
-        message = 'Ошибка, код: ' + 1 + ' - СНИЛС пуст';
+        message = 'Ошибка, код: ' + 1 + ' - СНИЛС пустой';
     } else if (/[^0-9]/.test(snils)) {
         message = 'Ошибка, код: ' + 2 + ' - СНИЛС может состоять только из цифр';
     } else if (snils.length !== 11) {
