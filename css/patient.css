@@ -27,7 +27,6 @@ body { /*вызвать врача - форма*/
 
 #center_forma {
     margin: auto;
-    /*float: none;*/
     width: 75%;
     text-align: center;
 }
