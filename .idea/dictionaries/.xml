@@ -2,8 +2,17 @@
   <dictionary name="Павел">
     <words>
       <w>forma</w>
+      <w>logclass</w>
+      <w>menunav</w>
+      <w>menunavb</w>
+      <w>menunavnext</w>
       <w>snils</w>
+      <w>snilz</w>
+      <w>unvis</w>
+      <w>unvisib</w>
       <w>videoph</w>
+      <w>visib</w>
+      <w>wawes</w>
     </words>
   </dictionary>
 </component>
