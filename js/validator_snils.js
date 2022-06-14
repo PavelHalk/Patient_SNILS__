@@ -15,5 +15,14 @@ function validateSnils(snils, error) {
     } else if (snils.length !== 11) {
         error.code = 3;
         error.message = 'СНИЛС может состоять только из 11 цифр';
+    } else {
+        var sum = 0;
+        for (var i = 0; i < 9; i++) {
+            sum += parseInt(snils[i]) * (9 - i);
+        }
+        var checkDigit = 0;
+
+
     }
+    return result;
 }
