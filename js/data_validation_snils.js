@@ -27,4 +27,5 @@ QUnit.test('Snils', function (assert) {
             code: null,
             message: null
         };
+    }
 });
