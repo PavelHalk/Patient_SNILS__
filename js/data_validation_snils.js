@@ -15,6 +15,7 @@ function getTests(errorCodeForZero) {
 	];//0-9 первоначальные тесты с ошибками
 }
 
+Belyakova
 
 QUnit.test('Snils', function (assert) {
 	var data = [].concat(getTests(3), [
