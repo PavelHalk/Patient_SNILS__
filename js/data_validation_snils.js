@@ -1,3 +1,5 @@
 /*data_validation_snils.js*/
 
-QUnit.test();
+QUnit.test('Snils', function (assert) {
+
+});
