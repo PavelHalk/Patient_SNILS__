@@ -12,5 +12,8 @@ function validateSnils(snils, error) {
     } else if (/[^0-9]/.test(snils)) {
         error.code = 2;
         error.message = 'СНИЛС может состоять только из цифр';
+    } else if (snils.length !== 11) {
+        error.code = 3;
+        error.message = 'СНИЛС может состоять только из 11 цифр';
     }
 }
