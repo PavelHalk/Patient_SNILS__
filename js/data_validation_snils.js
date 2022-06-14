@@ -22,5 +22,9 @@ QUnit.test('Snils', function (assert) {
         ['08765430400', false, 4],
         ['08765430301', false, 4]
     ]);
-
+    for (var i in data) {
+        var error = {
+            code: null,
+            message: null
+        };
 });
