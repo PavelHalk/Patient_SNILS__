@@ -58,7 +58,10 @@
             </form>
 
             <form class="unvisib" method="POST">
-
+                <p><input type="number" name="11name" class="input2" id="num1" maxlength="20" pattern="[0-9]{1,19}" placeholder="№СНИЛС: 12345678901" required="required"><!--Текстовые поля для ввода ФИО-->
+                </p> <div class=" " id='err1' style="display: block;color: chartreuse;font-size: large;"></div>
+                <p> <input type="text" pattern="^[А-Яа-яЁё\s]+$" name="12name" class="input2" id="fio" maxlength="70" placeholder="Полное имя" required="required"></p><!--Текстовые поля-->
+                <p><input type="text" name="15name" class="input2" maxlength="50" placeholder="Номер комнаты"></p><!--Текстовые поля-->
             </form>
 
         </div>
