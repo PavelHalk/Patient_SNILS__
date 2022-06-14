@@ -29,7 +29,12 @@ function validateSnils(snils, error) {
                 checkDigit = 0;
             }
         }
-
+        if (checkDigit === parseInt(snils.slice(-2))) {
+            result = true;
+        } else {
+            error.code = 4;
+            error.message = 'Неправильное контрольное число';
+        }
     }
     return result;
 }
